@@ -1,5 +1,5 @@
 /* =========================
-   GLOBAL
+GLOBAL
 ========================= */
 
 *{
@@ -34,15 +34,6 @@ img{
   font-size:38px;
   margin-bottom:15px;
   text-align:center;
-  color:#0f172a;
-}
-
-.section-subtitle{
-  text-align:center;
-  max-width:700px;
-  margin:auto;
-  color:#6b7280;
-  margin-bottom:50px;
 }
 
 .white{
@@ -50,7 +41,7 @@ img{
 }
 
 /* =========================
-   TOP BAR
+TOP BAR
 ========================= */
 
 .top-bar{
@@ -64,16 +55,10 @@ img{
   display:flex;
   justify-content:space-between;
   flex-wrap:wrap;
-  gap:10px;
-}
-
-.top-bar i{
-  margin-right:8px;
-  color:#4ade80;
 }
 
 /* =========================
-   HEADER
+HEADER
 ========================= */
 
 .header{
@@ -87,7 +72,6 @@ img{
   justify-content:space-between;
   align-items:center;
   flex-wrap:wrap;
-  gap:20px;
 }
 
 .logo-box{
@@ -102,12 +86,10 @@ img{
 
 .logo-box h2{
   font-size:28px;
-  color:#0f172a;
 }
 
 .logo-box p{
   color:#16a34a;
-  font-size:14px;
 }
 
 .header-contact{
@@ -116,18 +98,8 @@ img{
   flex-wrap:wrap;
 }
 
-.header-contact div{
-  font-size:14px;
-  color:#374151;
-}
-
-.header-contact i{
-  color:#16a34a;
-  margin-right:8px;
-}
-
 /* =========================
-   NAVBAR
+NAVBAR
 ========================= */
 
 .navbar{
@@ -146,22 +118,22 @@ img{
   color:#fff;
   text-decoration:none;
   font-weight:500;
-  transition:0.3s ease;
-}
-
-.nav-links a:hover{
-  color:#d1fae5;
 }
 
 /* =========================
-   HERO
+HERO
 ========================= */
 
 .hero{
   position:relative;
   height:85vh;
+
   background:
-  url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1400&auto=format&fit=crop');
+  linear-gradient(rgba(0,0,0,0.55),
+  rgba(0,0,0,0.55)),
+
+  url(https://i.ibb.co/Cp4WtFd7/hospital-mary-kings1.png);
+
   background-size:cover;
   background-position:center;
   display:flex;
@@ -171,7 +143,6 @@ img{
 .overlay{
   position:absolute;
   inset:0;
-  background:rgba(0,0,0,0.55);
 }
 
 .hero-content{
@@ -183,18 +154,16 @@ img{
 
 .hero-content h1{
   font-size:60px;
-  line-height:1.1;
   margin-bottom:25px;
 }
 
 .hero-content p{
   font-size:18px;
   margin-bottom:30px;
-  color:#e5e7eb;
 }
 
 /* =========================
-   BUTTON
+BUTTON
 ========================= */
 
 .btn{
@@ -207,16 +176,10 @@ img{
   border:none;
   font-weight:600;
   cursor:pointer;
-  transition:0.3s ease;
-}
-
-.btn:hover{
-  background:#16a34a;
-  transform:translateY(-3px);
 }
 
 /* =========================
-   ABOUT
+ABOUT
 ========================= */
 
 .about{
@@ -233,18 +196,11 @@ img{
 
 .about-image img{
   border-radius:20px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
 
 .about-content h2{
   font-size:40px;
   margin-bottom:20px;
-  color:#0f172a;
-}
-
-.about-content p{
-  margin-bottom:18px;
-  color:#4b5563;
 }
 
 .stats{
@@ -263,12 +219,8 @@ img{
   text-align:center;
 }
 
-.stat-box h3{
-  font-size:32px;
-}
-
 /* =========================
-   VISION
+VISION
 ========================= */
 
 .vision{
@@ -288,56 +240,37 @@ img{
   box-shadow:0 10px 25px rgba(0,0,0,0.05);
 }
 
-.vision-card h3{
-  font-size:28px;
-  margin-bottom:15px;
-  color:#0f172a;
-}
-
-.vision-card p{
-  color:#6b7280;
-}
-
 /* =========================
-   SPECIALTIES
+SERVICES
 ========================= */
 
-.specialties{
+.services{
+  background:#052e16;
   padding:100px 0;
-  background:#f9fafb;
 }
 
-.specialty-grid{
+.services-grid{
+  margin-top:50px;
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
   gap:25px;
 }
 
-.specialty-card{
+.service-card{
   background:#fff;
   padding:40px 25px;
   border-radius:18px;
   text-align:center;
-  box-shadow:0 10px 25px rgba(0,0,0,0.05);
-  transition:0.3s ease;
 }
 
-.specialty-card:hover{
-  transform:translateY(-8px);
-}
-
-.specialty-card i{
+.service-card i{
   font-size:42px;
   color:#22c55e;
   margin-bottom:20px;
 }
 
-.specialty-card h3{
-  color:#0f172a;
-}
-
 /* =========================
-   DIRECTOR
+DIRECTOR
 ========================= */
 
 .director{
@@ -358,54 +291,10 @@ img{
 .director-content h2{
   font-size:42px;
   margin-bottom:20px;
-  color:#0f172a;
-}
-
-.director-content p{
-  margin-bottom:18px;
-  color:#4b5563;
 }
 
 /* =========================
-   SERVICES
-========================= */
-
-.services{
-  background:#052e16;
-  padding:100px 0;
-}
-
-.services-grid{
-  margin-top:50px;
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:25px;
-}
-
-.service-card{
-  background:#fff;
-  padding:40px 25px;
-  border-radius:18px;
-  text-align:center;
-  transition:0.3s ease;
-}
-
-.service-card:hover{
-  transform:translateY(-8px);
-}
-
-.service-card i{
-  font-size:42px;
-  color:#22c55e;
-  margin-bottom:20px;
-}
-
-.service-card h3{
-  color:#0f172a;
-}
-
-/* =========================
-   CONTACT
+CONTACT
 ========================= */
 
 .contact{
@@ -421,17 +310,6 @@ img{
 .contact h2{
   font-size:42px;
   margin-bottom:20px;
-  color:#0f172a;
-}
-
-.contact p{
-  margin-bottom:18px;
-  color:#4b5563;
-}
-
-.contact i{
-  color:#22c55e;
-  margin-right:10px;
 }
 
 .contact-form{
@@ -445,17 +323,20 @@ img{
   padding:16px;
   border:1px solid #d1d5db;
   border-radius:12px;
-  font-size:15px;
-  outline:none;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus{
-  border-color:#22c55e;
+.contact-link{
+  text-decoration:none;
+  color:#374151;
+  font-weight:500;
+}
+
+.contact-link:hover{
+  color:#22c55e;
 }
 
 /* =========================
-   FOOTER
+FOOTER
 ========================= */
 
 .footer{
@@ -466,22 +347,8 @@ img{
 }
 
 /* =========================
-   RESPONSIVE
+RESPONSIVE
 ========================= */
-
-@media(max-width:992px){
-
-  .hero-content h1{
-    font-size:48px;
-  }
-
-  .about-content h2,
-  .director-content h2,
-  .contact h2,
-  .section-title{
-    font-size:34px;
-  }
-}
 
 @media(max-width:768px){
 
@@ -489,10 +356,6 @@ img{
   .header-flex{
     flex-direction:column;
     text-align:center;
-  }
-
-  .header-contact{
-    justify-content:center;
   }
 
   .hero{
@@ -504,46 +367,8 @@ img{
     font-size:38px;
   }
 
-  .hero-content p{
-    font-size:16px;
-  }
-
   .nav-links{
     gap:20px;
   }
 
-  .about,
-  .vision,
-  .specialties,
-  .director,
-  .services,
-  .contact{
-    padding:70px 0;
-  }
-
-  .stats{
-    justify-content:center;
-  }
-}
-
-@media(max-width:480px){
-
-  .hero-content h1{
-    font-size:30px;
-  }
-
-  .about-content h2,
-  .director-content h2,
-  .contact h2,
-  .section-title{
-    font-size:28px;
-  }
-
-  .logo{
-    width:65px;
-  }
-
-  .logo-box h2{
-    font-size:22px;
-  }
 }
